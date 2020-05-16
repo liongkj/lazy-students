@@ -4,7 +4,7 @@ module.exports = {
     defaultTitle: `Lazy But Smart`,
     siteTitleShort: `Lazy`,
     siteDescription: `Tips and tricks to write better paper, lazy`,
-    siteUrl: `https://lazystudent.netlify.com`,
+    siteUrl: `https://lazy-student.netlify.app`,
     siteAuthor: `@liongkj`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://lazystudent.netlify.com`,
+        siteUrl: `https://lazy-student.netlify.app`,
       },
     },
     `gatsby-plugin-offline`,
