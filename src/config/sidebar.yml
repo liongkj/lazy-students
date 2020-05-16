@@ -1,14 +1,30 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
+- label: "Introduction"
+  link: "/"
+- label: "Getting started"
+  link: "/getting-started"
+- label: "Microsoft Office"
+  items:
+    - label: "Microsoft Office"
+      link: "/msoffice"
+    - label: "Microsoft Word"
+      link: "/msoffice/word/introduction"
+    - label: "Microsoft Excel"
+      link: "/msoffice/excel/introduction"
+- label: "Chemdraw"
+  items:
+    - label: "Chemdraw"
+      link: "/chemdraw/chemdraw"
+- label: "Endnote"
+  items:
+    - label: "Introduction"
+      link: "/endnote/introduction"
 - label: Usage
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
+    - label: "Creating docs"
+      link: "/usage/creating-docs"
+    - label: "Navigation"
+      link: "/usage/navigation"
+    - label: "Shadowing"
+      link: "/usage/shadowing"

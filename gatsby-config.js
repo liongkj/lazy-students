@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `@rocketseat/gatsby-theme-docs`,
-    defaultTitle: `@rocketseat/gatsby-theme-docs`,
-    siteTitleShort: `gatsby-theme-docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.com`,
-    siteAuthor: `@rocketseat`,
+    siteTitle: `Lazy Student`,
+    defaultTitle: `Lazy But Smart`,
+    siteTitleShort: `Lazy`,
+    siteDescription: `Tips and tricks to write better paper, lazy`,
+    siteUrl: `https://lazystudent.netlify.com`,
+    siteAuthor: `@liongkj`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
     themeColor: `#7159c1`,
     basePath: `/`,
-    footer: `Theme by Rocketseat`,
+    footer: `By KJ`,
   },
   plugins: [
     {
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.com`,
+        siteUrl: `https://lazystudent.netlify.com`,
       },
     },
     `gatsby-plugin-offline`,
