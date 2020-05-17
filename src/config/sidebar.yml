@@ -20,6 +20,10 @@
   items:
     - label: "Introduction"
       link: "/endnote/introduction"
+- label: 学习类
+  items:
+    - label: "有机化学"
+      link: "/organic-chem/must-read"
 - label: Usage
   items:
     - label: "Creating docs"
