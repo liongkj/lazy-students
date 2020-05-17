@@ -6,12 +6,10 @@
   link: "/getting-started"
 - label: "Microsoft Office"
   items:
-    - label: "Microsoft Office"
-      link: "/msoffice"
     - label: "Microsoft Word"
-      link: "/msoffice/word/introduction"
+      link: "/msoffice/word"
     - label: "Microsoft Excel"
-      link: "/msoffice/excel/introduction"
+      link: "/msoffice/excel"
 - label: "Chemdraw"
   items:
     - label: "Chemdraw"

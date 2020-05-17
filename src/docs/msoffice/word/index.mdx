@@ -1,0 +1,35 @@
+---
+title: 'Microsoft Word'
+---
+
+Tips to use Microsoft Word:
+
+## Pinyin
+There is sometimes we need to change the phonetic guide in ms word but the normal CTRL-F (Find) and replace all. But this does not work in the ruby text (the phonetic guide in your own language).
+
+In this tutorial, I will be using China Chinese for example.
+
+
+1. To be able to find all phonetic guide characters, first we need to convert the document to Field Code with Alt-F9 (MacOs option-F9).
+
+2. Find the Field code of the word you want to change. And copy by clicking Ctrl + C (MacOs CMD+C). For example:
+
+Field code:
+>{EQ \* jc0 \* "Font:Noto Sans CJK Jp Regular" \* hps14 \o(\s\up21(*<ins>WRONG PHONETIC</ins>*),*YOUR CHAR*}
+
+3. Then open the search box by clicking the shortcut key CTRL+F.
+
+4. Then paste the original field code inside.
+
+5. Paste the original field code in the "replace with" box one more time  and make the changes accordingly. For example, make your changes to *YOUR RUBY CHAR* to the correct pinyin.
+
+6. Lastly, you can choose to replace all or replace one by one.
+
+Here is a video tutorial on how to change a word (pinyin) - the lazy way
+
+https://youtu.be/-yAzJ2MuQ8U
+
+
+## Compare Document
+
+## Track Changes
