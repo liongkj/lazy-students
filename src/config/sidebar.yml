@@ -24,6 +24,10 @@
   items:
     - label: "有机化学"
       link: "/organic-chem/must-read"
+- label: Machine Learning
+  items:
+    - label: "Neural Networks"
+      link: "machine-learning/neural-network"
 - label: Usage
   items:
     - label: "Creating docs"
