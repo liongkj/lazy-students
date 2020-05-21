@@ -33,6 +33,24 @@ module.exports = {
         icon: `static/favicon.png`,
       },
     },
+    {
+      resolve: `gatsby-source-prismic-graphql`,
+      options: {
+        repositoryName: "lazy-student", // (REQUIRED, replace with your own)
+        accessToken: "93820f24b061bc931ec1a8d302158bcc", // (optional API access token)
+        path: "/preview", // (optional preview path. Default: /preview)
+        previews: true, // (optional, activated Previews. Default: false)
+        pages: [
+          {
+            // (optional, builds pages dynamically)
+            type: "Article", // TypeName from prismic
+            match: "/article/:uid", // Pages will be generated under this pattern
+            path: "/article", // Placeholder page for unpublished documents
+            component: require.resolve("./src/templates/article.js"),
+          },
+        ],
+      },
+    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
